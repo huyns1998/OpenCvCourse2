@@ -33,11 +33,11 @@ namespace MimiProject2
                     Rect rect = Cv2.BoundingRect(contour);
                     if(Math.Abs(rect.Width - rect.Height) > 4)
                     {
-                        PutText(img, contour, "Rectangle1");
+                        PutText(img, contour, "Rectangle2");
                     }
                     else
                     {
-                        PutText(img, contour, "Square");
+                        PutText(img, contour, "Square1");
                     }
                 }
                 else if(contourNew.Length == 10) 
