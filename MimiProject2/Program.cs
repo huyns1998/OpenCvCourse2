@@ -40,7 +40,7 @@ namespace MimiProject2
                         PutText(img, contour, "Square1");
                     }
                 }
-                else if(contourNew.Length == 10) 
+                else if(contourNew.Length == 7) 
                 {
                     PutText(img, contour, "Star");
                 }
