@@ -46,7 +46,7 @@ namespace Baqsic
             //Mat medianBlur = new Mat();
             //Cv2.BilateralFilter(image, bilDst1, 9, 75, 75);
             //Cv2.BilateralFilter(image, bilDst2, 9, 75, 2);
-            //Cv2.MedianBlur(image, medianBlur, 5);
+            Cv2.MedianBlur(image, medianBlur, 7);
             Cv2.ImShow("bilDst1", bilDst1);
             Cv2.ImShow("bilDst2", bilDst2);
             Cv2.ImShow("medianBlur", medianBlur1);
