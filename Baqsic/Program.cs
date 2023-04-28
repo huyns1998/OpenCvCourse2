@@ -49,7 +49,7 @@ namespace Baqsic
             //Cv2.MedianBlur(image, medianBlur, 5);
             //Cv2.ImShow("bilDst1", bilDst1);
             //Cv2.ImShow("bilDst2", bilDst2);
-            //Cv2.ImShow("medianBlur", medianBlur);
+            Cv2.ImShow("medianBlur", medianBlur);
 
 
             float[] data = { -1, -1, -1, -1, 9, -1, -1, -1, -1 };
