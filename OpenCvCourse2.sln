@@ -19,21 +19,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimiProject2", "MimiProject
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineDetection", "LineDetection\LineDetection.csproj", "{9963A9B1-7E6D-401D-9E1F-4B83F77EAE4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleDetection", "CircleDetection\CircleDetection.csproj", "{8A779C48-AE23-46CA-9CA2-68D7C70994C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleDetection", "CircleDetection\CircleDetection.csproj", "{8A779C48-AE23-46CA-9CA2-68D7C70994C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobDtection", "BlobDtection\BlobDtection.csproj", "{9F2E6A34-726B-4E23-ABB9-446475F4A6C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobDtection", "BlobDtection\BlobDtection.csproj", "{9F2E6A34-726B-4E23-ABB9-446475F4A6C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProject3", "MiniProject3\MiniProject3.csproj", "{64C39DBD-0A33-48B3-AB57-CE363CFF0B70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniProject3", "MiniProject3\MiniProject3.csproj", "{64C39DBD-0A33-48B3-AB57-CE363CFF0B70}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section5", "Section5", "{3CE211D5-8546-46F1-8E39-209D986D70E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miniproject5", "Miniproject5\Miniproject5.csproj", "{4E3EE94F-AF23-48BF-8B85-B46D4E0AD732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miniproject5", "Miniproject5\Miniproject5.csproj", "{4E3EE94F-AF23-48BF-8B85-B46D4E0AD732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingConrner", "FindingConrner\FindingConrner.csproj", "{5A37AA31-FC71-47EF-B845-A01589504EFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindingConrner", "FindingConrner\FindingConrner.csproj", "{5A37AA31-FC71-47EF-B845-A01589504EFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIFT", "SIFT\SIFT.csproj", "{8A1E6D9C-F843-41B5-9863-93B1522CB15C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIFT", "SIFT\SIFT.csproj", "{8A1E6D9C-F843-41B5-9863-93B1522CB15C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProject6", "MiniProject6\MiniProject6.csproj", "{408654F7-438D-4DF4-A756-F9D9BEE262F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniProject6", "MiniProject6\MiniProject6.csproj", "{408654F7-438D-4DF4-A756-F9D9BEE262F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section6", "Section6", "{8CAACA11-16F4-40A7-95B1-8DC279A75ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceAndEyeDetection", "FaceAndEyeDetection\FaceAndEyeDetection.csproj", "{FD480416-032C-461E-94ED-2A51331B93C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,10 @@ Global
 		{408654F7-438D-4DF4-A756-F9D9BEE262F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{408654F7-438D-4DF4-A756-F9D9BEE262F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{408654F7-438D-4DF4-A756-F9D9BEE262F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD480416-032C-461E-94ED-2A51331B93C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD480416-032C-461E-94ED-2A51331B93C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD480416-032C-461E-94ED-2A51331B93C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD480416-032C-461E-94ED-2A51331B93C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +119,7 @@ Global
 		{5A37AA31-FC71-47EF-B845-A01589504EFD} = {3CE211D5-8546-46F1-8E39-209D986D70E4}
 		{8A1E6D9C-F843-41B5-9863-93B1522CB15C} = {3CE211D5-8546-46F1-8E39-209D986D70E4}
 		{408654F7-438D-4DF4-A756-F9D9BEE262F8} = {3CE211D5-8546-46F1-8E39-209D986D70E4}
+		{FD480416-032C-461E-94ED-2A51331B93C8} = {8CAACA11-16F4-40A7-95B1-8DC279A75ACE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B66A3CF-099A-4B1A-A112-4C69A746353E}
